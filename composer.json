@@ -1,0 +1,29 @@
+{
+	"name": "sof3/static-overloads",
+	"description": "Use parameter-varying method overloads in PHP",
+	"type": "library",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "SOFe",
+			"email": "sofe2038@gmail.com"
+		}
+	],
+	"require": {
+		"php": "^7.0",
+		"ext-Reflection": "^7.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"SOFe\\StaticOverloads\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"SOFe\\StaticOverloads\\Tests\\": "tests/"
+		}
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^6.5"
+	}
+}
